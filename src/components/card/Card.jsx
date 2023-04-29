@@ -1,6 +1,7 @@
 import React from "react";
 import "./Card.scss";
 import CategoryItem from "../category-Item/CategoryItem";
+import styled from "styled-components";
 
 const Card = () => {
   const categories = [
@@ -37,13 +38,19 @@ const Card = () => {
   ];
   return (
     <>
-      <div className="categories-container">
+      <Container>
         {categories.map((category) => (
           <CategoryItem key={category.id} category={category} />
         ))}
-      </div>
+      </Container>
     </>
   );
 };
 
 export default Card;
+
+const Container = styled.div`
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+`;

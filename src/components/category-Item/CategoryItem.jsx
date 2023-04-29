@@ -15,7 +15,7 @@ const CategoryItem = ({ category }) => {
             <div className="offers__card-hover">
               <div className="lightning-container">
                 <lightning-widget
-                  style={{ witdh: "250px" }}
+                  className="lightning-box"
                   name="Value4Value"
                   accent="black"
                   to={LightningAddress}

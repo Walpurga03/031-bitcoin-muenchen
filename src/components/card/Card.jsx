@@ -1,5 +1,4 @@
 import React from "react";
-import "./Card.scss";
 import CategoryItem from "../category-Item/CategoryItem";
 import styled from "styled-components";
 

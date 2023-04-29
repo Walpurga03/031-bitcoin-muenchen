@@ -1,0 +1,130 @@
+.container {
+  width: 80%;
+}
+.offers__container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin-left: -0.66rem;
+  margin-right: -0.66rem;
+}
+
+.offers__card {
+  flex: 1 0 0px;
+  margin: 0 1rem;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 0.5rem 0.5rem 2rem black;
+  position: relative;
+}
+
+.offers__image {
+  width: 100%;
+}
+
+.offers__content {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.offers__card-hover {
+  position: absolute;
+  top: -0.0625rem;
+  left: -0.0625rem;
+  right: -0.0625rem;
+  bottom: -0.0625rem;
+  z-index: 2;
+  background-color: #00000000;
+
+  background-repeat: no-repeat, no-repeat;
+  background-position: center top, center center;
+  background-size: 100% calc(50% - 4rem), 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+}
+.offers__card:hover .offers__card-hover {
+  opacity: 1;
+}
+
+.offers__card-container--flip {
+  perspective: 50rem;
+}
+.offers__card-container--flip .offers__card {
+  transition: transform 1s ease-in-out;
+  transform-style: preserve-3d;
+}
+.offers__card-container--flip:hover .offers__card {
+  transform: rotateY(180deg);
+}
+.offers__card-container--flip .offers__card-primary {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: rotateY(0deg);
+  transform-style: preserve-3d;
+}
+.offers__card-container--flip .offers__card-hover {
+  transform: rotateY(180deg);
+  opacity: 1;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.lightning-container {
+  min-width: 100%;
+}
+.socialContainer {
+  position: absolute;
+  left: 50%;
+  bottom: -100px;
+  transform: translate(-50%);
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  a {
+    display: flex;
+    background: #fff;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 5px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+      -3px -3px 10px -1px rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: transform 0.5s;
+  }
+  a i {
+    font-size: 35px;
+    color: #777;
+    transition: transform 0.5s;
+  }
+  a:hover {
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+      inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+      -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+      0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+      0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.01);
+    transform: translate(2px);
+  }
+  a:hover i {
+    transform: scale(0.9);
+    color: #777;
+  }
+  a:hover .fa-twitter {
+    color: #1da1f2;
+  }
+  a:hover .fa-creative-commons-nc-eu {
+    color: #cf0909;
+  }
+  a:hover .fa-telegram {
+    color: #229ed9;
+  }
+}

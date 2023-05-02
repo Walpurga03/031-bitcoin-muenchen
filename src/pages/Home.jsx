@@ -18,43 +18,47 @@ const Home = () => {
 
   return (
     <>
-      <Title id="top">Grafik mit logo</Title>
-      <Subtitle>Kurztext über V4V</Subtitle>
-      <Directory categories={bbm} />;
-      <Navigation>
-        <List>
-          <ListItem>
-            <Link href="#speaker">Speaker</Link>
-          </ListItem>
-          <ListItem>
-            <Link href="#workshop">Workshop</Link>
-          </ListItem>
-          <ListItem>
-            <Link href="#podcast">Podcast</Link>
-          </ListItem>
-          <ListItem>
-            <Link href="#proofOfWork">Proof of Work</Link>
-          </ListItem>
-        </List>
-      </Navigation>
-      <Speaker />
-      <div id="workshop">
-        <h1>Workshop</h1>
-        <p>Wir sind ein tolles Team von Webentwicklern.</p>
-      </div>
-      <div id="podcast">
-        <h1>Podcast</h1>
-        <p>Wir sind ein tolles Team von Webentwicklern.</p>
-      </div>
-      <div id="proofOfWork">
-        <h1>Proof of Work</h1>
-        <p>Wir sind ein tolles Team von Webentwicklern.</p>
-      </div>
+      <Container>
+        <Title id="top">Grafik mit logo</Title>
+        <Subtitle>Kurztext über V4V</Subtitle>
+        <Directory categories={bbm} />
+        <Navigation>
+          <List>
+            <ListItem>
+              <Link href="#speaker">Speaker</Link>
+            </ListItem>
+            <ListItem>
+              <Link href="#workshop">Workshop</Link>
+            </ListItem>
+            <ListItem>
+              <Link href="#podcast">Podcast</Link>
+            </ListItem>
+            <ListItem>
+              <Link href="#proofOfWork">PoW</Link>
+            </ListItem>
+          </List>
+        </Navigation>
+        <Speaker />
+        <div id="workshop">
+          <h1>Workshop</h1>
+          <p>Wir sind ein tolles Team von Webentwicklern.</p>
+        </div>
+        <div id="podcast">
+          <h1>Podcast</h1>
+          <p>Wir sind ein tolles Team von Webentwicklern.</p>
+        </div>
+        <div id="proofOfWork">
+          <h1>PoW</h1>
+          <p>Wir sind ein tolles Team von Webentwicklern.</p>
+        </div>
+      </Container>
     </>
   );
 };
 
 export default Home;
+
+const Container = styled.div``;
 
 const Title = styled.div`
   margin: 2rem;
@@ -66,35 +70,49 @@ const Subtitle = styled.div`
   font-size: 1rem;
   margin: 1rem;
 `;
+
 const Navigation = styled.nav`
-  margin-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: transparent;
+  background-color: transparent;
 `;
 const List = styled.ul`
   display: flex;
-  list-style: none;
-  font-size: 1.5rem;
-  align-items: center;
+  list-style-type: none;
   justify-content: center;
+  align-items: center;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 const ListItem = styled.li`
-  margin: 0 2rem;
+  display: inline-block;
   background-color: #000;
+  margin-left: 2rem;
+  width: 8rem;
   padding: 0.3rem 1rem;
   border-radius: 5px;
   border: solid 3px #000;
-  box-sizing: border-box; /* hinzugefügt */
   &:hover {
     background: #ffe700;
   }
+  @media (max-width: 600px) {
+    margin-left: 0;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 const Link = styled.a`
+  text-align: center;
+  display: block;
+  font-size: 1.5rem;
   color: #ffe700;
   text-decoration: none;
-  box-sizing: border-box; /* hinzugefügt */
+  box-sizing: border-box;
   ${ListItem}:hover & {
     color: #000;
   }

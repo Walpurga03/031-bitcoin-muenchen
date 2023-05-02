@@ -25,7 +25,7 @@ const speaker = () => {
     {
       id: 3,
       name: "Harald Rauter",
-      imageFront: require("./images/frontRauter.jpg"),
+      imageFront: require("./images/frontRauter1.jpg"),
       imageBack: require("./images/harald.jpg"),
       LightningAddress: "aldobarazutti@getalby.com",
       twitter:
@@ -39,7 +39,7 @@ const speaker = () => {
         <h2>Speaker</h2>
         <p>kurzer text</p>
       </Title>
-      <Directory categories={speaker} />;
+      <Directory categories={speaker} />
       <List>
         <ListItem>
           <Link href="#Top">Top</Link>

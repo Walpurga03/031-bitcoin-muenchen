@@ -60,6 +60,8 @@ export default Home;
 
 const Container = styled.div`
   min-width: 300px;
+  width: 90%;
+  margin: 0 auto;
 `;
 
 const Title = styled.div`

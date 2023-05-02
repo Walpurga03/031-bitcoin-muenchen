@@ -1,7 +1,7 @@
 import "./CategoryItem.scss";
 
 const CategoryItem = ({ category }) => {
-  const { imageFront, imageBack, name, lightningAddress, twitter } = category;
+  const { imageFront, imageBack, name, lightningAdress, twitter } = category;
   return (
     <>
       <div className="category-container">
@@ -20,9 +20,10 @@ const CategoryItem = ({ category }) => {
                       className="lightning-box"
                       name={name}
                       accent="#000000"
-                      to={lightningAddress}
+                      to={lightningAdress}
                       image={imageBack}
-                      labels="🍻2100, 🍕21000, 🛸210000"
+                      amounts="2100, 21000, 210000"
+                      labels="🍻 2100, 🍕 21000, 🛸 210000"
                     />
 
                     <div className="socialContainer">

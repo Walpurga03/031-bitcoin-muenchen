@@ -1,12 +1,15 @@
 import React from "react";
 import styled from "styled-components";
+import NavImage from "../../images/Block-Munich.jpg";
 
 const NavBar = () => {
   return (
     <>
       <NavContainer>
         <NavList>
-          <NavListItem>Bitcoin Block München</NavListItem>
+          <NavListItem>
+            <Img src={NavImage} alt="Block-Muenchen" />
+          </NavListItem>
           <NavLink href="https://bitcoinmunich.de/">Zurück</NavLink>
         </NavList>
       </NavContainer>
@@ -15,8 +18,15 @@ const NavBar = () => {
 };
 
 export default NavBar;
+const Img = styled.img`
+  position: absolute;
+  top: 0.3rem;
+  left: 1rem;
+  width: 6rem;
+`;
 
 const NavContainer = styled.nav`
+  width: 100vw;
   background-color: #000;
   height: 2.5rem;
 `;
@@ -39,7 +49,7 @@ const NavListItem = styled.li`
   font-weight: 800;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
-  @media (max-width: 330px) {
+  @media (max-width: 350px) {
     font-size: 0.7rem;
     margin-top: 0.7rem;
   }
@@ -54,4 +64,9 @@ const NavLink = styled.a`
   padding: 0.2rem;
   background-color: #ffe700;
   color: #000000;
+  @media (max-width: 350px) {
+    font-size: 0.7rem;
+    margin-top: 0.7rem;
+    margin-right: 0.1rem;
+  }
 `;

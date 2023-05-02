@@ -7,10 +7,10 @@ const Home = () => {
   const bbm = [
     {
       id: 1,
-      name: "Alexander Moik",
+      name: "BBM",
       imageFront: require("../images/brezel.png"),
       imageBack: require("../images/brezel.png"),
-      LightningAddress: "aldobarazutti@getalby.com",
+      lightningAdress: "aldobarazutti@getalby.com",
       twitter:
         "https://twitter.com/BitcoinMunich?t=5r6-Wl_PxhSGo97H5rJQ9A&s=33",
     },
@@ -34,7 +34,7 @@ const Home = () => {
               <Link href="#podcast">Podcast</Link>
             </ListItem>
             <ListItem>
-              <Link href="#proofOfWork">PoW</Link>
+              <Link href="#proofOfWork">PoW-Partner</Link>
             </ListItem>
           </List>
         </Navigation>
@@ -58,7 +58,9 @@ const Home = () => {
 
 export default Home;
 
-const Container = styled.div``;
+const Container = styled.div`
+  min-width: 300px;
+`;
 
 const Title = styled.div`
   margin: 2rem;
@@ -83,7 +85,7 @@ const List = styled.ul`
   justify-content: center;
   align-items: center;
 
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
     flex-direction: column;
     align-items: center;
   }
@@ -91,15 +93,21 @@ const List = styled.ul`
 const ListItem = styled.li`
   display: inline-block;
   background-color: #000;
-  margin-left: 2rem;
-  width: 8rem;
-  padding: 0.3rem 1rem;
+  margin-left: 3rem;
+  width: 10rem;
+  padding: 0.3rem 0.5rem;
   border-radius: 5px;
   border: solid 3px #000;
   &:hover {
     background: #ffe700;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 850px) {
+    margin-left: 0.5rem;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media (max-width: 700px) {
     margin-left: 0;
     margin-bottom: 2rem;
     flex-direction: column;

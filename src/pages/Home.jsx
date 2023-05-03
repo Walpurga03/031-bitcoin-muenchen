@@ -42,22 +42,6 @@ const Home = () => {
           Helfer verteilt und über den Verein zur Unterstützung des nächsten
           Blocks (Schweiz) verwendet.
         </Subtitle>
-        <Navigation>
-          <List>
-            <ListItem>
-              <Link href="speaker">Speaker</Link>
-            </ListItem>
-            <ListItem>
-              <Link href="workshop">Workshop</Link>
-            </ListItem>
-            <ListItem>
-              <Link href="podcast">Podcast</Link>
-            </ListItem>
-            <ListItem>
-              <Link href="powPartner">PoW-Partner</Link>
-            </ListItem>
-          </List>
-        </Navigation>
       </Container>
     </>
   );
@@ -154,59 +138,5 @@ const Subtitle = styled.p`
   @media (max-width: 700px) {
     font-size: 1.7rem;
     text-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.3);
-  }
-`;
-
-const Navigation = styled.nav`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: transparent;
-  margin-bottom: 2rem;
-`;
-const List = styled.ul`
-  display: flex;
-  list-style-type: none;
-  justify-content: center;
-  align-items: center;
-
-  @media (max-width: 700px) {
-    flex-direction: column;
-    align-items: center;
-  }
-`;
-const ListItem = styled.li`
-  display: inline-block;
-  background-color: #000;
-  margin-left: 3rem;
-  width: 10rem;
-  padding: 0.3rem 0.5rem;
-  border-radius: 5px;
-  border: solid 3px #000;
-  &:hover {
-    background: #ffe700;
-  }
-  @media (max-width: 850px) {
-    margin-left: 0.5rem;
-    margin-bottom: 2rem;
-    flex-direction: column;
-    align-items: center;
-  }
-  @media (max-width: 700px) {
-    margin-left: 0;
-    margin-bottom: 2rem;
-    flex-direction: column;
-    align-items: center;
-  }
-`;
-const Link = styled.a`
-  text-align: center;
-  display: block;
-  font-size: 1.5rem;
-  color: #ffe700;
-  text-decoration: none;
-  box-sizing: border-box;
-  ${ListItem}:hover & {
-    color: #000;
   }
 `;

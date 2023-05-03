@@ -52,19 +52,3 @@ const NavListItem = styled.li`
     margin-top: 0.7rem;
   }
 `;
-
-const NavLink = styled.a`
-  cursor: pointer;
-  font-weight: 600;
-  text-decoration: none;
-  margin-top: 0.5rem;
-  margin-right: 1rem;
-  padding: 0.2rem;
-  background-color: #ffe700;
-  color: #000000;
-  @media (max-width: 350px) {
-    font-size: 0.7rem;
-    margin-top: 0.7rem;
-    margin-right: 0.1rem;
-  }
-`;

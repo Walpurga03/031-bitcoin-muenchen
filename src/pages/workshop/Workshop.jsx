@@ -6,7 +6,9 @@ const Workshop = () => {
   const workshopAr = [];
   return (
     <>
-      <div id="workshop" />
+      <TitleBox id="workshop">
+        <WorkshopTitle>Workshop</WorkshopTitle>
+      </TitleBox>
       <Title>
         <Subtitle>
           Alle Workshopleiter spenden Zeit, Wissen und tragen ihre Reisekosten
@@ -25,6 +27,22 @@ const Workshop = () => {
 };
 
 export default Workshop;
+
+const TitleBox = styled.div`
+  margin-top: 5rem;
+  width: 100vw;
+  height: 2.5rem;
+  background-color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+`;
+
+const WorkshopTitle = styled.div`
+  font-size: 1.5rem;
+  padding-top: 0.4rem;
+  text-align: center;
+  color: #ffe700;
+`;
 
 const Title = styled.div`
   margin: 2rem 0;

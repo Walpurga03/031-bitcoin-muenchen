@@ -6,6 +6,9 @@ const PowPartner = () => {
   const powPartnerAr = [];
   return (
     <>
+      <TitleBox id="powPartner">
+        <PowPartnerTitle>Pow-Partner</PowPartnerTitle>
+      </TitleBox>
       <Title>
         <Subtitle>
           Ohne die Unterstützung unserer Proof of Work - Partner wäre das Event
@@ -25,6 +28,22 @@ const PowPartner = () => {
 };
 
 export default PowPartner;
+
+const TitleBox = styled.div`
+  margin-top: 5rem;
+  width: 100vw;
+  height: 2.5rem;
+  background-color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+`;
+
+const PowPartnerTitle = styled.div`
+  font-size: 1.5rem;
+  padding-top: 0.4rem;
+  text-align: center;
+  color: #ffe700;
+`;
 
 const Title = styled.div`
   margin: 2rem 0;

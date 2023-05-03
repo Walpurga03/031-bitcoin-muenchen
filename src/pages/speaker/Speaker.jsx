@@ -84,6 +84,9 @@ const Speaker = () => {
   ];
   return (
     <>
+      <TitleBox id="speaker">
+        <SpeakerTitle>Speaker</SpeakerTitle>
+      </TitleBox>
       <Title>
         <Subtitle>
           Alle Speaker arbeiten ohne ihre übliche Gage und tragen ihre
@@ -103,6 +106,21 @@ const Speaker = () => {
 
 export default Speaker;
 
+const TitleBox = styled.div`
+  margin-top: 5rem;
+  width: 100vw;
+  height: 2.5rem;
+  background-color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+`;
+
+const SpeakerTitle = styled.div`
+  font-size: 1.5rem;
+  padding-top: 0.4rem;
+  text-align: center;
+  color: #ffe700;
+`;
 const Title = styled.div`
   margin: 2rem 0;
   text-align: center;

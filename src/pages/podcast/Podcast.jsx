@@ -3,7 +3,24 @@ import styled from "styled-components";
 import Directory from "../../components/directory/directory";
 
 const Podcast = () => {
-  const podcastAr = [];
+  const podcastAr = [
+    {
+      id: 1,
+      name: "Zeitsprung Bitcoin",
+      imageFront: require("./frontImages/zsb.jpg"),
+      imageBack: require("./backImages/zsb-b.jpg"),
+      lightning: "zeitsprungbitcoin@getalby.com",
+      twitter: "https://twitter.com/zeitsprungbtc",
+    },
+    {
+      id: 2,
+      name: "Was Bitcoin Bringt",
+      imageFront: require("./frontImages/wbb.jpg"),
+      imageBack: require("./backImages/niko-b.jpg"),
+      lightning: "niko@nostrplebs.com",
+      twitter: "https://twitter.com/NikoJilch",
+    },
+  ];
   return (
     <>
       <TitleBox id="podcast">

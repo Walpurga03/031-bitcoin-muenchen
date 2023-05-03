@@ -11,7 +11,7 @@ const Home = () => {
       name: "BBM",
       imageFront: require("../images/brezel.png"),
       imageBack: require("../images/brezel.png"),
-      lightning: "aldobarazutti@getalby.com",
+      lightning: "bitcoinblockmunich@geyser.fund",
       twitter:
         "https://twitter.com/BitcoinMunich?t=5r6-Wl_PxhSGo97H5rJQ9A&s=33",
     },

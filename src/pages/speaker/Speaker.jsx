@@ -22,6 +22,14 @@ const Speaker = () => {
       twitter: "https://twitter.com/jyn_urso",
     },
     {
+      id: 4,
+      name: "Joe Martin",
+      imageFront: require("./frontImages/joe.jpg"),
+      imageBack: require("./backImages/joe-b.jpg"),
+      lightning: "joemartin@getalby.com",
+      twitter: "https://twitter.com/JoeMartinDE",
+    },
+    {
       id: 5,
       name: "Lina Seiche",
       imageFront: require("./frontImages/lina.jpg"),
@@ -56,6 +64,14 @@ const Speaker = () => {
       twitter: "https://twitter.com/danielwingen",
     },
     {
+      id: 11,
+      name: "Tobi",
+      imageFront: require("./frontImages/tobi.jpg"),
+      imageBack: require("./backImages/tobi-b.jpg"),
+      lightning: "blockzeit@getalby.com",
+      twitter: "https://twitter.com/Blockzeit_BTC",
+    },
+    {
       id: 12,
       name: "Amanda Cavaleri",
       imageFront: require("./frontImages/amanda.jpg"),
@@ -63,6 +79,22 @@ const Speaker = () => {
       lightning:
         "lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhk27rsdaek2er5v95kcvfhc9vss7",
       twitter: "https://twitter.com/Amanda_Cavaleri",
+    },
+    {
+      id: 13,
+      name: "Jörg Hermsdorf",
+      imageFront: require("./frontImages/jörg.png"),
+      imageBack: require("./backImages/joerg-b.jpg"),
+      lightning: "joerg@21s.at",
+      twitter: "",
+    },
+    {
+      id: 20,
+      name: "Thesi Relingen-Prinz",
+      imageFront: require("./frontImages/theresa.jpg"),
+      imageBack: require("./backImages/theresa-b.jpg"),
+      lightning: "tvrp@getalby.com",
+      twitter: "https://twitter.com/ThesiPrinz",
     },
     {
       id: 24,
@@ -80,6 +112,15 @@ const Speaker = () => {
       imageBack: require("./backImages/eva-b.jpg"),
       lightning: "eva@getalby.com",
       twitter: "https://twitter.com/einemillionsats",
+    },
+    {
+      id: 28,
+      name: "Marc",
+      imageFront: require("./frontImages/marc.png"),
+      imageBack: require("./backImages/marc-b.jpg"),
+      lightning:
+        "LNURL1DP68GURN8GHJ7MRW9E6XJURN9UH8WETVDSKKKMN0WAHZ7MRWW4EXCUP0X9URJEFHXUMNGCNYVS6XYE3JX5MRZT270M9",
+      twitter: "https://twitter.com/PrincessPlo",
     },
   ];
   return (

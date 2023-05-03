@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import Directory from "../../directory/directory";
+import Directory from "../../components/directory/directory";
 
-const speaker = () => {
-  const speaker = [
+const Speaker = () => {
+  const speakerAr = [
     {
       id: 2,
       name: "Leon Wankum",
@@ -84,22 +84,24 @@ const speaker = () => {
   ];
   return (
     <>
-      <div id="speaker" />
       <Title>
-        <h2>Speaker</h2>
-        <p>kurzer text</p>
+        <Subtitle>
+          Alle Speaker arbeiten ohne ihre übliche Gage und tragen ihre
+          Reisekosten selbst. Lass ihnen bitte eine direkte Aufmerksamkeit dafür
+          zukommen. Du kannst auch eine Nachricht (note) hinterlassen.
+        </Subtitle>
       </Title>
-      <Directory categories={speaker} />
+      <Directory categories={speakerAr} />
       <List>
         <ListItem>
-          <Link href="#Top">Top</Link>
+          <Link href="/">Zurück</Link>
         </ListItem>
       </List>
     </>
   );
 };
 
-export default speaker;
+export default Speaker;
 
 const Title = styled.div`
   margin: 2rem 0;
@@ -111,6 +113,7 @@ const List = styled.ul`
   font-size: 1.5rem;
   align-items: center;
   justify-content: center;
+  margin-bottom: 1rem;
 `;
 const ListItem = styled.li`
   margin: 0 2rem;
@@ -129,5 +132,17 @@ const Link = styled.a`
   box-sizing: border-box;
   ${ListItem}:hover & {
     color: #000;
+  }
+`;
+const Subtitle = styled.p`
+  letter-spacing: 0.1em;
+  margin: 2rem 3rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  text-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.5);
+  @media (max-width: 700px) {
+    font-size: 1.7rem;
+    text-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.3);
   }
 `;

@@ -2,22 +2,20 @@ import React from "react";
 import styled from "styled-components";
 import NavImage from "../../images/Block-Munich.jpg";
 
-const NavBar = () => {
+const Balken = () => {
   return (
-    <>
-      <NavContainer>
-        <NavList>
-          <NavListItem>
-            <Img src={NavImage} alt="Block-Muenchen" />
-          </NavListItem>
-          <NavLink href="https://bitcoinmunich.de/">Zurück</NavLink>
-        </NavList>
-      </NavContainer>
-    </>
+    <NavContainer>
+      <NavList>
+        <NavListItem>
+          <Img src={NavImage} alt="Block-Muenchen" />
+        </NavListItem>
+      </NavList>
+    </NavContainer>
   );
 };
 
-export default NavBar;
+export default Balken;
+
 const Img = styled.img`
   position: absolute;
   top: 0.3rem;

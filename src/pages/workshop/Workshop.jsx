@@ -8,14 +8,12 @@ const Workshop = () => {
       id: 2,
       name: "Mathias Linkerhand",
       imageFront: require("./backImages/mathias-b.jpg"),
-      imageBack: require("./backImages/mathias-b.jpg"),
       lightning: "mathias_u1f596@ln.tips",
     },
     {
       id: 3,
       name: "Keno",
       imageFront: require("./backImages/keno-b.jpg"),
-      imageBack: require("./backImages/keno-b.jpg"),
       lightning:
         "lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhhg6rfvd4hymmpv3mkz7fkxvdxn9t3",
     },
@@ -23,21 +21,18 @@ const Workshop = () => {
       id: 4,
       name: "Armin",
       imageFront: require("./backImages/armin-b.jpg"),
-      imageBack: require("./backImages/armin-b.jpg"),
       lightning: "bitcoinblockmunich@geyser.fund",
     },
     {
       id: 5,
       name: "Tobi",
       imageFront: require("./backImages/tobi-b copy.jpg"),
-      imageBack: require("./backImages/tobi-b copy.jpg"),
       lightning: "blockzeit@getalby.com",
     },
     {
       id: 6,
       name: "Edwin",
       imageFront: require("./backImages/edwin-b.jpg"),
-      imageBack: require("./backImages/edwin-b.jpg"),
       lightning: "satoshiskidzz@ln.tips",
     },
   ];

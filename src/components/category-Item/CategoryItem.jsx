@@ -27,11 +27,13 @@ const CategoryItem = ({ category }) => {
                     />
 
                     <div className="socialContainer">
-                      <div className="social-media">
-                        <a href={twitter}>
-                          <i className="fab fa-twitter"></i>
-                        </a>
-                      </div>
+                      {twitter && (
+                        <div className="social-media">
+                          <a href={twitter}>
+                            <i className="fab fa-twitter"></i>
+                          </a>
+                        </div>
+                      )}
                     </div>
                   </div>
                 </div>

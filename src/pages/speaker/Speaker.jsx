@@ -5,6 +5,31 @@ import Directory from "../../components/directory/directory";
 const Speaker = () => {
   const speakerAr = [
     {
+      id: 111,
+      name: "Pascal & Moritz",
+      imageFront: require("./frontImages/pasc-moe.jpg"),
+      lightning: "bitcoinblockmunich@geyser.fund",
+      twitter: "https://twitter.com/conshax",
+    },
+    {
+      id: 112,
+      name: "Christian Neurauter",
+      imageFront: require("./frontImages/christian.png"),
+      imageBack: require("./backImages/christian-b.jpg"),
+      lightning:
+        "LNURL1DP68GURN8GHJ7CTSDYHX7UR9DEHX7ER99E3K7MF0WCEZ7MRWW4EXCTTSV9UJ7VPJ8YENSWRYV5KNSCFJ8QKNGVTPXGKNSWF4V5KKXDNYVFJKGD35X4NXXVSEAZRKA",
+      twitter: "https://twitter.com/Cryp_Donate",
+    },
+    {
+      id: 1,
+      name: "Andreas Streb",
+      imageFront: require("./frontImages/andreas-1.jpeg"),
+      imageBack: require("./backImages/andreas-b.jpg"),
+      lightning:
+        "lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhk2anpwd5hvetnw3hhy7fjxyms360d",
+      twitter: "https://twitter.com/andreas_streb",
+    },
+    {
       id: 2,
       name: "Leon Wankum",
       imageFront: require("./frontImages/leon.jpg"),
@@ -50,8 +75,7 @@ const Speaker = () => {
       name: "Harald Rauter",
       imageFront: require("./frontImages/harald.jpg"),
       imageBack: require("./backImages/harald-b.jpg"),
-      lightning:
-        "lnbc1pjyzc3cpp5tkruzt2ekg6xsk84t7568xklgrj970xaa8uac30zp0zlw84htc2sdqqcqzzgxqyz5vqrzjqwnvuc0u4txn35cafc7w94gxvq5p3cu9dd95f7hlrh0fvs46wpvhdedryhn9askk7qqqqqryqqqqthqqpyrzjqw8c7yfutqqy3kz8662fxutjvef7q2ujsxtt45csu0k688lkzu3ldedryhn9askk7qqqqqryqqqqthqqpysp53cq2ydeukkuvw73yv6hvsd8hw2uj6qqve0q4u8klmcgc2yk7eggq9qypqsqvf9dzhkrcfyx4qqg4mqslkpkcq5lt28kx72nptmnzv28fy9lgqtzktf2f50kmc47mng45w2mp3h0rrpalu9pld5rklncdheqfzsw4eqqsrrqkc",
+      lightning: "bitcoinblockmunich@geyser.fund",
       twitter: "https://twitter.com/HaraldRauter",
     },
     {
@@ -59,8 +83,7 @@ const Speaker = () => {
       name: "Daniel Wingen",
       imageFront: require("./frontImages/daniel.jpg"),
       imageBack: require("./backImages/daniel-b.jpg"),
-      lightning:
-        "lnbc1pjyzc3cpp5tkruzt2ekg6xsk84t7568xklgrj970xaa8uac30zp0zlw84htc2sdqqcqzzgxqyz5vqrzjqwnvuc0u4txn35cafc7w94gxvq5p3cu9dd95f7hlrh0fvs46wpvhdedryhn9askk7qqqqqryqqqqthqqpyrzjqw8c7yfutqqy3kz8662fxutjvef7q2ujsxtt45csu0k688lkzu3ldedryhn9askk7qqqqqryqqqqthqqpysp53cq2ydeukkuvw73yv6hvsd8hw2uj6qqve0q4u8klmcgc2yk7eggq9qypqsqvf9dzhkrcfyx4qqg4mqslkpkcq5lt28kx72nptmnzv28fy9lgqtzktf2f50kmc47mng45w2mp3h0rrpalu9pld5rklncdheqfzsw4eqqsrrqkc",
+      lightning: "bitcoinblockmunich@geyser.fund",
       twitter: "https://twitter.com/danielwingen",
     },
     {
@@ -85,7 +108,7 @@ const Speaker = () => {
       name: "Jörg Hermsdorf",
       imageFront: require("./frontImages/jörg.png"),
       imageBack: require("./backImages/joerg-b.jpg"),
-      lightning: "joerg@21s.at",
+      lightning: "easternconifer15@walletofsatoshi.com",
       twitter: "",
     },
     {
@@ -101,8 +124,7 @@ const Speaker = () => {
       name: "Jason Maier",
       imageFront: require("./frontImages/jason.jpg"),
       imageBack: require("./backImages/jason-b.jpg"),
-      lightning:
-        "lnbc1pjyzm49pp5xvh7nctrhrnv5z0zyuw9cesxj5ka3v2qd7hszx6j4zjtat3p6wdqdqu2askcmr9wssx7e3q2dshgmmndp5scqzpgxqyz5vqsp5jqr0vm9xn2p82rsc60mpddcaltkvalrxfmf3yrtd05yshrn6v3aq9qyyssqrn0e49x9gvg37lg5ye50vr3hp9my4xspwffcghq98shaf45uxes3655wjfvpk53swnrtzpprahlq5krl5txzgd7gvsj40qgrrnhqrgqpa6v3a2",
+      lightning: "bitcoinblockmunich@geyser.fund",
       twitter: "https://twitter.com/cjasonmaier",
     },
     {

@@ -8,8 +8,7 @@ const PowPartner = () => {
       id: 2,
       name: "Getränke Wimmer",
       imageFront: require("./frontImages/Wimmer.png"),
-      lightning:
-        "lnbc1pjy8l7fpp59n3sxm644wh285z4vlj48c6zjrt0k76edl8yp2dmrmxhn06h02kqdqqcqzzgxqyz5vqrzjqwnvuc0u4txn35cafc7w94gxvq5p3cu9dd95f7hlrh0fvs46wpvhdscspm5k9ztcjcqqqqryqqqqthqqpyrzjqw8c7yfutqqy3kz8662fxutjvef7q2ujsxtt45csu0k688lkzu3ldscspm5k9ztcjcqqqqryqqqqthqqpysp583tkcrturgfmytvsp0nqqe3jndmu2lydj0zzyfjd4gzv7z4fqpms9qypqsqwc5gsk6kh0tvwqa0sx0wayl5vduv9zzueyhgy4dfs54nkd0vx35smjmdcr05d5kggyz6cq8rp5q0gqvnjenwugrltsg9nr28w26v4tqpdw4pp7",
+      lightning: "bitcoinblockmunich@geyser.fund",
     },
     {
       id: 3,
@@ -21,8 +20,7 @@ const PowPartner = () => {
       id: 5,
       name: "Satoshistore",
       imageFront: require("./frontImages/Satoshi-Store.png"),
-      lightning:
-        "035ece5bb069d1fff9ba9fa3be5faf7b498188b9da08dc3b5aa99c31c9c77597ba@212.186.59.30:9735",
+      lightning: "bitcoinblockmunich@geyser.fund",
     },
     {
       id: 6,
@@ -108,7 +106,7 @@ const PowPartner = () => {
       id: 21,
       name: "HodlHodlHodl",
       imageFront: require("./frontImages/hhh.jpg"),
-      lightning: "aimlessactor60@walletofsatoshi.com",
+      lightning: "knottyroof14@walletofsatoshi.com",
     },
     {
       id: 22,

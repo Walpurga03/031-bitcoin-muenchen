@@ -5,6 +5,53 @@ import Directory from "../../components/directory/directory";
 const Speaker = () => {
   const speakerAr = [
     {
+      id: 113,
+      name: "Die Bitcoinschreiber",
+      imageFront: require("./frontImages/dieBit.jpg"),
+      lightning: "sombercowbell23@walletofsatoshi.com",
+    },
+    {
+      id: 1111,
+      name: "Jonathan",
+      imageFront: require("./frontImages/jonathan.png"),
+      imageBack: require("./backImages/jonathan-b.jpg"),
+      lightning: "Magic_internet_user@ln.tips",
+      twitter: "https://twitter.com/Pleb_Style",
+    },
+    {
+      id: 27,
+      name: "Eva Brauckmann",
+      imageFront: require("./frontImages/eva.png"),
+      imageBack: require("./backImages/eva-b.jpg"),
+      lightning: "eva@getalby.com",
+      twitter: "https://twitter.com/einemillionsats",
+    },
+    {
+      id: 13,
+      name: "Jörg Hermsdorf",
+      imageFront: require("./frontImages/jörg.png"),
+      imageBack: require("./backImages/joerg-b.jpg"),
+      lightning: "easternconifer15@walletofsatoshi.com",
+      twitter: "",
+    },
+    {
+      id: 28,
+      name: "Marc",
+      imageFront: require("./frontImages/marc.png"),
+      imageBack: require("./backImages/marc-b.jpg"),
+      lightning:
+        "LNURL1DP68GURN8GHJ7MRW9E6XJURN9UH8WETVDSKKKMN0WAHZ7MRWW4EXCUP0X9URJEFHXUMNGCNYVS6XYE3JX5MRZT270M9",
+      twitter: "https://twitter.com/PrincessPlo",
+    },
+    {
+      id: 11,
+      name: "Tobi",
+      imageFront: require("./frontImages/tobi.jpg"),
+      imageBack: require("./backImages/tobi-b.jpg"),
+      lightning: "blockzeit@getalby.com",
+      twitter: "https://twitter.com/Blockzeit_BTC",
+    },
+    {
       id: 111,
       name: "Pascal & Moritz",
       imageFront: require("./frontImages/pasc-moe.jpg"),
@@ -86,14 +133,7 @@ const Speaker = () => {
       lightning: "bitcoinblockmunich@geyser.fund",
       twitter: "https://twitter.com/danielwingen",
     },
-    {
-      id: 11,
-      name: "Tobi",
-      imageFront: require("./frontImages/tobi.jpg"),
-      imageBack: require("./backImages/tobi-b.jpg"),
-      lightning: "blockzeit@getalby.com",
-      twitter: "https://twitter.com/Blockzeit_BTC",
-    },
+
     {
       id: 12,
       name: "Amanda Cavaleri",
@@ -103,14 +143,7 @@ const Speaker = () => {
         "lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhk27rsdaek2er5v95kcvfhc9vss7",
       twitter: "https://twitter.com/Amanda_Cavaleri",
     },
-    {
-      id: 13,
-      name: "Jörg Hermsdorf",
-      imageFront: require("./frontImages/jörg.png"),
-      imageBack: require("./backImages/joerg-b.jpg"),
-      lightning: "easternconifer15@walletofsatoshi.com",
-      twitter: "",
-    },
+
     {
       id: 20,
       name: "Thesi Relingen-Prinz",
@@ -126,23 +159,6 @@ const Speaker = () => {
       imageBack: require("./backImages/jason-b.jpg"),
       lightning: "bitcoinblockmunich@geyser.fund",
       twitter: "https://twitter.com/cjasonmaier",
-    },
-    {
-      id: 27,
-      name: "Eva Brauckmann",
-      imageFront: require("./frontImages/eva.png"),
-      imageBack: require("./backImages/eva-b.jpg"),
-      lightning: "eva@getalby.com",
-      twitter: "https://twitter.com/einemillionsats",
-    },
-    {
-      id: 28,
-      name: "Marc",
-      imageFront: require("./frontImages/marc.png"),
-      imageBack: require("./backImages/marc-b.jpg"),
-      lightning:
-        "LNURL1DP68GURN8GHJ7MRW9E6XJURN9UH8WETVDSKKKMN0WAHZ7MRWW4EXCUP0X9URJEFHXUMNGCNYVS6XYE3JX5MRZT270M9",
-      twitter: "https://twitter.com/PrincessPlo",
     },
   ];
   return (

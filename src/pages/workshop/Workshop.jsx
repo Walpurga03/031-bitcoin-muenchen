@@ -5,6 +5,12 @@ import Directory from "../../components/directory/directory";
 const Workshop = () => {
   const workshopAr = [
     {
+      id: 6,
+      name: "Edwin",
+      imageFront: require("./backImages/edwin-b.jpg"),
+      lightning: "satoshiskidzz@ln.tips",
+    },
+    {
       id: 2,
       name: "Mathias Linkerhand",
       imageFront: require("./backImages/mathias-b.jpg"),
@@ -28,12 +34,6 @@ const Workshop = () => {
       name: "Tobi",
       imageFront: require("./backImages/tobi-b copy.jpg"),
       lightning: "blockzeit@getalby.com",
-    },
-    {
-      id: 6,
-      name: "Edwin",
-      imageFront: require("./backImages/edwin-b.jpg"),
-      lightning: "satoshiskidzz@ln.tips",
     },
   ];
   return (

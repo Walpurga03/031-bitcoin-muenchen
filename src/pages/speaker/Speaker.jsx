@@ -6,7 +6,7 @@ const Speaker = () => {
   const speakerAr = [
     {
       id: 113,
-      name: "Die Bitcoinschreiber",
+      name: "Die Bitcoin Schreiber",
       imageFront: require("./frontImages/dieBit.jpg"),
       lightning: "sombercowbell23@walletofsatoshi.com",
     },

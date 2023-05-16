@@ -5,6 +5,12 @@ import Directory from "../../components/directory/directory";
 const PowPartner = () => {
   const powPartnerAr = [
     {
+      id: 1,
+      name: "Satoshi Engineering",
+      imageFront: require("./frontImages/satoshie.jpg"),
+      lightning: "crew@satoshiengineering.com",
+    },
+    {
       id: 2,
       name: "Getränke Wimmer",
       imageFront: require("./frontImages/Wimmer.png"),

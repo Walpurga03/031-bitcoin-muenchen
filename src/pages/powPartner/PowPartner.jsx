@@ -11,6 +11,18 @@ const PowPartner = () => {
       lightning: "crew@satoshiengineering.com",
     },
     {
+      id: 111,
+      name: "Ghost",
+      imageFront: require("./frontImages/Ghost.png"),
+      lightning: "bitcoinblockmunich@geyser.fund",
+    },
+    {
+      id: 112,
+      name: "Copiaro",
+      imageFront: require("./frontImages/Copiaro.png"),
+      lightning: "bitcoinblockmunich@geyser.fund",
+    },
+    {
       id: 2,
       name: "Getränke Wimmer",
       imageFront: require("./frontImages/Wimmer.png"),

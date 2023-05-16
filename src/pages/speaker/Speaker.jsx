@@ -55,7 +55,7 @@ const Speaker = () => {
       id: 111,
       name: "Pascal & Moritz",
       imageFront: require("./frontImages/pasc-moe.jpg"),
-      lightning: "bitcoinblockmunich@geyser.fund",
+      lightning: "bitcoinblock@getalby.com",
       twitter: "https://twitter.com/conshax",
     },
     {
@@ -122,7 +122,7 @@ const Speaker = () => {
       name: "Harald Rauter",
       imageFront: require("./frontImages/harald.jpg"),
       imageBack: require("./backImages/harald-b.jpg"),
-      lightning: "bitcoinblockmunich@geyser.fund",
+      lightning: "bitcoinblock@getalby.com",
       twitter: "https://twitter.com/HaraldRauter",
     },
     {
@@ -130,7 +130,7 @@ const Speaker = () => {
       name: "Daniel Wingen",
       imageFront: require("./frontImages/daniel.jpg"),
       imageBack: require("./backImages/daniel-b.jpg"),
-      lightning: "bitcoinblockmunich@geyser.fund",
+      lightning: "bitcoinblock@getalby.com",
       twitter: "https://twitter.com/danielwingen",
     },
 
@@ -157,7 +157,7 @@ const Speaker = () => {
       name: "Jason Maier",
       imageFront: require("./frontImages/jason.jpg"),
       imageBack: require("./backImages/jason-b.jpg"),
-      lightning: "bitcoinblockmunich@geyser.fund",
+      lightning: "bitcoinblock@getalby.com",
       twitter: "https://twitter.com/cjasonmaier",
     },
   ];

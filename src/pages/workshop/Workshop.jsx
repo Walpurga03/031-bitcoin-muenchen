@@ -27,7 +27,7 @@ const Workshop = () => {
       id: 4,
       name: "Armin",
       imageFront: require("./backImages/armin-b.jpg"),
-      lightning: "bitcoinblockmunich@geyser.fund",
+      lightning: "bitcoinblock@getalby.com",
     },
     {
       id: 5,

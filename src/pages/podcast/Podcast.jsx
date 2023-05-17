@@ -6,14 +6,22 @@ const Podcast = () => {
   const podcastAr = [
     {
       id: 1,
+      name: "EINUNDZWANZIG",
+      imageFront: require("./frontImages/einundzwanzig.jpg"),
+      lightning: "bitcoinblock@getalby.com",
+      twitter: "https://twitter.com/_einundzwanzig_",
+    },
+    {
+      id: 2,
       name: "Zeitsprung Bitcoin",
       imageFront: require("./frontImages/zsb.jpg"),
       imageBack: require("./backImages/zsb-b.jpg"),
       lightning: "zeitsprungbitcoin@getalby.com",
       twitter: "https://twitter.com/zeitsprungbtc",
     },
+
     {
-      id: 2,
+      id: 3,
       name: "Was Bitcoin Bringt",
       imageFront: require("./frontImages/wbb.jpg"),
       imageBack: require("./backImages/niko-b.jpg"),

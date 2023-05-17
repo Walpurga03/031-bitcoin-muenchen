@@ -5,6 +5,22 @@ import Directory from "../../components/directory/directory";
 const Speaker = () => {
   const speakerAr = [
     {
+      id: 13,
+      name: "Jörg Hermsdorf",
+      imageFront: require("./frontImages/jörg.png"),
+      imageBack: require("./backImages/joerg-b.jpg"),
+      lightning: "easternconifer15@walletofsatoshi.com",
+      twitter: "",
+    },
+    {
+      id: 10,
+      name: "Daniel Wingen",
+      imageFront: require("./frontImages/daniel.jpg"),
+      imageBack: require("./backImages/daniel-b.jpg"),
+      lightning: "bitcoinblock@getalby.com",
+      twitter: "https://twitter.com/danielwingen",
+    },
+    {
       id: 113,
       name: "Die Bitcoin Schreiber",
       imageFront: require("./frontImages/dieBit.jpg"),
